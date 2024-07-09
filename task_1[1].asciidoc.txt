@@ -1,0 +1,70 @@
++*In[1]:*+
+[source, ipython3]
+----
+#creating list
+mylist=[1,2,3,4,5]
+#adding
+mylist.append(6)
+#removing
+mylist.remove(3)
+#modifying
+mylist[0]=10
+print("result list:",mylist)
+----
+
+
++*Out[1]:*+
+----
+result list: [10, 2, 4, 5, 6]
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+#creating dictionary
+mydict={'name':'chandu','age':21,'city':'chittoor'}
+#adding
+mydict['gender']='male'
+#removing
+del mydict['age']
+#modifying
+mydict['city']='AP'
+print("result dictionary:",mydict)
+----
+
+
++*Out[2]:*+
+----
+result dictionary: {'name': 'chandu', 'city': 'AP', 'gender': 'male'}
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+#creating set
+myset={1,2,3,4,5}
+#adding
+myset.add(6)
+#removing
+myset.remove(3)
+#modifying
+myset.discard(1)
+myset.add(10)
+print("result set:",myset)
+----
+
+
++*Out[3]:*+
+----
+result set: {2, 4, 5, 6, 10}
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
